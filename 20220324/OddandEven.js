@@ -1,6 +1,6 @@
 /** bit operation
  * @param {string} S
- * @return {number} minAmplitude
+ * @return {number}
  *  */ 
  function solution(S)
  {

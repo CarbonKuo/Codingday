@@ -10,7 +10,7 @@
  * maxMoney[ i + 1 ] = Math.max(maxMoney[ i ], nums[ i ] + (maxMoney[ i - 1 ] ?? 0) )
  * 
  * @param {number[]} nums
- * @return {number} maxMoney
+ * @return {number} maxMoney[nums.length]
  *  */ 
  var rob = function(nums) {
   const maxMoney = [0]
