@@ -1,18 +1,18 @@
 /** LeetCode 942. DI String Match
- * @param {string} s
- * @return {number[]}
+ * @param {string} string
+ * @return {number[]} res
  */
-var diStringMatch = function(s) {
-  let perm = new Array(s.length + 1).fill(0).map((v,i) => i);
+var diStringMatch = function(string) {
+  let perm = new Array(string.length + 1).fill(0).map((v,i) => i);
   let index = 0;
   let front = 0;
-  let rear = s.length;
+  let rear = string.length;
   let res = [];
   while(front < rear){
-    if (s[index] === 'I'){
+    if(string[index] === 'I'){
       res.push(perm[front]);
       front++;
-    }else if(s[index] === 'D'){
+    }else if(string[index] === 'D'){
       res.push(perm[rear]);
       rear--;
     }
@@ -22,13 +22,13 @@ var diStringMatch = function(s) {
   return res;
 };
 
-// var diStringMatch = function(s) {
-//   let len = s.length;
+// var diStringMatch = function(string) {
+//   let len = string.length;
 //   let front = 0;
 //   let rear = len;
-//   let perm = new Array(s.length + 1).fill(0).map((v,i) => i);
+//   let perm = new Array(string.length + 1).fill(0).map((v,i) => i);
 //   for (let i = 0; i < len; i++){
-//     perm[i] = s[i] === 'I' ? front++ : rear--;
+//     perm[i] = string[i] === 'I' ? front++ : rear--;
 //   }
 //   perm[len] = rear;
 //   return perm;

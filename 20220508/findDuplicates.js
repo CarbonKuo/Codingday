@@ -1,6 +1,6 @@
 /** LeetCode 442. Find All Duplicates in an Array
  * @param {number[]} nums
- * @return {number[]}
+ * @return {number[]} res
  */
  var findDuplicates = function(nums) {
   let res = [];

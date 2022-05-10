@@ -1,23 +1,23 @@
 /** LeetCode 397. Integer Replacement
- * @param {number} n
- * @return {number}
+ * @param {number} number
+ * @return {number} res
  */
-var diStringMatch = function(n) {
+var diStringMatch = function(number) {
   let res = 0;
-  while (n !== 1){
-    if( n % 2 === 0){
+  while (number !== 1){
+    if( number % 2 === 0){
       res++;
-      n = Math.floor(n / 2);
-    }else if (n % 4 === 1){
+      number = Math.floor(number / 2);
+    }else if(number % 4 === 1){
       res += 2;
-      n = Math.floor(n / 2);
+      number = Math.floor(number / 2);
     }else{
-      if(n === 3){
+      if(number === 3){
         res += 2;
-        n = 1;
-      } else {
+        number = 1;
+      }else{
         res += 2;
-        n = Math.floor(n / 2) + 1;
+        number = Math.floor(number / 2) + 1;
       }
     }
   }

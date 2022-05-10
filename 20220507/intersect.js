@@ -1,7 +1,7 @@
 /** LeetCode 349. Intersection of Two Arrays
  * @param {number[]} nums1
  * @param {number[]} nums2
- * @return {number[]}
+ * @return {number[]} res
  */
 var intersect = function(nums1, nums2) {
   let res = [];

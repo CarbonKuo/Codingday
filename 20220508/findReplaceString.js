@@ -7,7 +7,7 @@
  */
  var findReplaceString = function(s, indices, sources, targets) {
   let resArray = s.split('');
-  for (let i = 0; i < indices.length; i++){
+  for(let i = 0; i < indices.length; i++){
     let replaceString = sources[i];
     let checkString = s.slice(indices[i], indices[i] + replaceString.length);
     if (checkString === replaceString){
