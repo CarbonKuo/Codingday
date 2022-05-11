@@ -4,7 +4,7 @@
  *  */ 
  function solution(S)
  {
-   let size = s.split('');
+   let size = S.split('');
    let bitshift = size.length - size.findIndex((n) => n === '1');
    let Onescount = size.filter((n) => n === '1').length - 1;
  
