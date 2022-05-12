@@ -1,16 +1,16 @@
 /** LeetCode 921. Minimum Add to Make Parentheses Valid
- * @param {string} String
+ * @param {string} Parentheses
  * @return {number} needOpeningParenthesis + needClosingParenthesis
  */
- var minAddToMakeValid = function(String) {
+ var minAddToMakeValid = function(Parentheses) {
   let needOpeningParenthesis = 0;
   let needClosingParenthesis = 0;
 
-  for (curString of String) {
-    if (curString === '(') {
+  for (let Parenthesis of Parentheses) {
+    if (Parenthesis === '(') {
       needClosingParenthesis++;
     }
-    if (curString === ')') {
+    if (Parenthesis === ')') {
       needClosingParenthesis--;
       if (needClosingParenthesis == -1) {
         needClosingParenthesis = 0;
