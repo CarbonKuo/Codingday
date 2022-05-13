@@ -6,13 +6,13 @@
   let needOpeningParenthesis = 0;
   let needClosingParenthesis = 0;
 
-  for (let Parenthesis of Parentheses) {
-    if (Parenthesis === '(') {
+  for(let Parenthesis of Parentheses) {
+    if(Parenthesis === '(') {
       needClosingParenthesis++;
     }
-    if (Parenthesis === ')') {
+    if(Parenthesis === ')') {
       needClosingParenthesis--;
-      if (needClosingParenthesis == -1) {
+      if(needClosingParenthesis == -1) {
         needClosingParenthesis = 0;
         needOpeningParenthesis++;
       }
@@ -21,22 +21,22 @@
   return needOpeningParenthesis + needClosingParenthesis;
 };
 
-/** LeetCode 921. Minimum Add to Make Parentheses Valid
- * @param {string} Parentheses
- * @return {number} needOpeningParenthesis + needClosingParenthesis
- */
-var minAddToMakeValid = function(Parentheses) {
-  let res = Parentheses.length;
-  let needClosingParenthesis = 0;
+// /** LeetCode 921. Minimum Add to Make Parentheses Valid
+//  * @param {string} Parentheses
+//  * @return {number} insertCount
+//  */
+//  var minAddToMakeValid = function(Parentheses) {
+//   let insertCount = Parentheses.length;
+//   let needClosingParenthesis = 0;
 
-  for (let Parenthesis of Parentheses) {
-    if (Parenthesis === '(') {
-      needClosingParenthesis++;
-    }
-    else if(needClosingParenthesis > 0) {
-      needClosingParenthesis--;
-      res -= 2;
-    }
-  }
-  return res;
-};
+//   for(let Parenthesis of Parentheses) {
+//     if(Parenthesis === '(') {
+//       needClosingParenthesis++;
+//     }
+//     else if(needClosingParenthesis > 0) {
+//       needClosingParenthesis--;
+//       insertCount -= 2;
+//     }
+//   }
+//   return insertCount;
+// };
