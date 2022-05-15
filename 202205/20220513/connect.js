@@ -18,21 +18,21 @@ var connect = function(root) {
   }
   let queue = [root];
   while(queue.length){
-	  let levelSize = queue.length;
-	  let last = null;
-	  for(let i = 1; i <= levelSize; i++){
-		  let f = queue.shift();
-		  if(f.left !== null){
-			  queue.push(f.left);
-		  }
-		  if(f.right !== null){
-			  queue.push(f.right);
-		  }
-		  if(i !== 1){
-			  last.next = f;
-		  }
-		  last = f;
-	  }
+    let levelSize = queue.length;
+    let last = null;
+    for(let i = 1; i <= levelSize; i++){
+      let f = queue.shift();
+      if(f.left !== null){
+        queue.push(f.left);
+      }
+      if(f.right !== null){
+        queue.push(f.right);
+      }
+      if(i !== 1){
+        last.next = f;
+      }
+      last = f;
+    }
   }
   return root;
 };
