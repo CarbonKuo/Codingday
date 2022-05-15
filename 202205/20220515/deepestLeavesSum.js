@@ -8,7 +8,7 @@
  */
 /** LeetCode 1302. Deepest Leaves Sum
  * @param {TreeNode} root
- * @return {number}
+ * @return {number} sum
  */
 var deepestLeavesSum = function(root) {
   let curDepth = 0;
