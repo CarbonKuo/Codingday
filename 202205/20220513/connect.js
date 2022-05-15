@@ -14,7 +14,7 @@
  */
 var connect = function(root) {
 	if(root === null){
-		return null;
+	  return null;
 	}
 	let queue = [root];
 	while(queue.length){
