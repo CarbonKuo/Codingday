@@ -14,15 +14,15 @@ var threeSum = function(nums) {
     
     while(left < right){
       if(nums[left] + nums[right] === target){
-          res.push([nums[left], -target, nums[right]]);
-          while(nums[left] === nums[left + 1]){
-            left++;
-          }
+        res.push([nums[left], -target, nums[right]]);
+        while(nums[left] === nums[left + 1]){
           left++;
-          while(nums[right] === nums[right - 1]){
-            right--;
-          }
+        }
+        left++;
+        while(nums[right] === nums[right - 1]){
           right--;
+        }
+        right--;
       }else if(nums[left] + nums[right] < target){
         left++;
       }else{
