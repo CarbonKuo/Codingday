@@ -8,7 +8,7 @@
  * };
  */
 
-/** LeetCode 117. Populating Next Right Pointers in Each NodeII
+/** LeetCode 117. Populating Next Right Pointers in Each Node II
  * @param {Node} root
  * @return {Node} root
  */
