@@ -7,29 +7,29 @@ var twoSum = function(nums, target) {
   let start = 0;
   let end = 1;
   while(start < end){
-      if(nums[start] + nums[end] === target){
-          return [start, end];
+    if(nums[start] + nums[end] === target){
+      return [start, end];
+    }else{
+      if(end < nums.length - 1){
+        end++;
       }else{
-          if(end < nums.length - 1){
-              end++;
-          }else{
-              start++;
-              end = start + 1;
-          }
+        start++;
+        end = start + 1;
       }
+    }
   }
 };
 
 // var twoSum = function(nums, target) {
-//     let map = new Map();
-//     for(let i = 0; i < nums.length; i++){
-//         if(map.has(target - nums[i])){
-//             return [map.get(target - nums[i]), i]
-//         }else{
-//             map.set(nums[i], i);
-//         }
+//   let map = new Map();
+//   for(let i = 0; i < nums.length; i++){
+//     if(map.has(target - nums[i])){
+//       return [map.get(target - nums[i]), i]
+//     }else{
+//       map.set(nums[i], i);
 //     }
-//     return [];
+//   }
+//   return [];
 // };
 
 // var twoSum = function(nums, target) {
