@@ -1,7 +1,7 @@
 /** LeetCode 1192. Critical Connections in a Network
  * @param {number} n
  * @param {number[][]} connections
- * @return {number[][]} ans
+ * @return {number[][]} criticalConnection
  */
  var criticalConnections = function(n, connections) {
   let edgeMap = {};
@@ -9,7 +9,7 @@
     edgeMap[i] = [];
   for (let [a,b] of connections)
     edgeMap[a].push(b), edgeMap[b].push(a);
-  let disc = new Array(n), low = new Array(n), time = 1, ans = [];
+  let disc = new Array(n), low = new Array(n), time = 1, criticalConnection = [];
   const dfs = (curr, prev) => {
     disc[curr] = low[curr] = time++;
     for (let next of edgeMap[curr]) {
@@ -20,10 +20,10 @@
         low[curr] = Math.min(low[curr], disc[next]);
       }
       if (low[next] > disc[curr]){
-        ans.push([curr, next]);
+        criticalConnection.push([curr, next]);
       }
     }
   }
   dfs(0, -1);
-  return ans;
+  return criticalConnection;
 };
