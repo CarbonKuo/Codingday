@@ -17,6 +17,7 @@ var findMin = function(nums) {
   return nums[left];
 };
 
+//O(N)
 // var findMin = function(nums) {
 //   return Math.min(...nums);
 // };
