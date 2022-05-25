@@ -6,7 +6,7 @@
   let p = 0, q = 0, res =1;
   for(let i = 1; i <= n; i++){
     p = q;
-    q = r;
+    q = res;
     res = p + q;
   }
   return res;
