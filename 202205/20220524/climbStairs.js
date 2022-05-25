@@ -3,11 +3,12 @@
  * @return {number} res
  */
  var climbStairs = function(n) {
-  let p = 0, q = 0, res =1;
-  for(let i = 1; i <= n; i++){
-    p = q;
-    q = res;
-    res = p + q;
+  if(n <= 2) return n;
+  let twoStepNext = 1, oneStepNext = 0, res = 2;
+  for(let i = 3; i <= n; i++){
+    oneStepNext = twoStepNext;
+    twoStepNext = res;
+    res = oneStepNext + twoStepNext;
   }
   return res;
 };
