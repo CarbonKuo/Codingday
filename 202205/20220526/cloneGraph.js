@@ -19,7 +19,7 @@
 /**
  * @param {Node} node
  * @param {Map} visited
- * @return {Number|Node} If visited exists, return the visited map node value; if not, return the clone.
+ * @return {number|Node} If visited exists, return the visited map node value; if not, return the clone.
  */
 function dfs(node, visited){
   if(visited.has(node.val)) return visited.get(node.val); // If visited exists, return the value that exists.
