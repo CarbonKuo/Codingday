@@ -2,15 +2,17 @@
  * @param {number[]} nums
  * @param {number} deleteElements
  * @return {number} minAmplitude
- *  */ 
-function findMinAmplitude(nums, deleteElements){
-  if( deleteElements >= nums.length - 1) return 0;
-  let sortNums = nums.sort((a,b) => { return a - b; });
+ *  */
+function findMinAmplitude(nums, deleteElements) {
+  if (deleteElements >= nums.length - 1) return 0;
+  let sortNums = nums.sort((a, b) => {
+    return a - b;
+  });
   let interval = sortNums.length - deleteElements;
-  let minAmplitude = sortNums[ sortNums.length - 1 ] - sortNums[0];
+  let minAmplitude = sortNums[sortNums.length - 1] - sortNums[0];
 
-  for( let i = 0; i <= sortNums.length - interval; i++){
-    if(sortNums[i + interval - 1] - sortNums[i] < minAmplitude){
+  for (let i = 0; i <= sortNums.length - interval; i++) {
+    if (sortNums[i + interval - 1] - sortNums[i] < minAmplitude) {
       minAmplitude = sortNums[i + interval - 1] - sortNums[i];
     }
   }
