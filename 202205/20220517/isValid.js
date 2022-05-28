@@ -1,4 +1,4 @@
-/**
+/** LeetCode 20. Valid Parentheses
  * @param {String} code
  * @return {Boolean}
  */
