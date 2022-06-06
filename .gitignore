@@ -5,3 +5,12 @@ gulpfile.js
 package.json
 yarn.lock
 template
+gulpfile.ts
+gulp
+tsconfig.json
+Cargo.lock
+Cargo.toml
+benchmark.ts
+.eslintrc.json
+testsrcipt.js
+lib
