@@ -5,7 +5,7 @@ Personal practice with Leetcode and some question banks 💻
 ## Create a new problem
 
 ```
-gulp init
+yarn quiz
 prompt: num: <number>
 prompt: language: [js|rust]
 ```
