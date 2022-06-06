@@ -1,6 +1,6 @@
 # CodingDay
 
-Personal practice with Leetcode and some question banks
+Personal practice with Leetcode and some question banks 💻
 
 ## Create a new problem
 
