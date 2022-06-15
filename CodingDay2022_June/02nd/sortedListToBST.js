@@ -6,20 +6,12 @@
  * }
  */
 /**
- * Definition for a binary tree node.
- * function TreeNode(val, left, right) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.left = (left===undefined ? null : left)
- *     this.right = (right===undefined ? null : right)
- * }
- */
-/**
  * @param {ListNode} head
  * @return {TreeNode}
  */
- var sortedListToBST = function(head) {
+var sortedListToBST = function (head) {
   let arr = [];
-  while (head) { 
+  while (head) {
     arr.push(head.val);
     head = head.next;
   }
@@ -34,3 +26,10 @@
 
   return buildBST(0, arr.length - 1);
 };
+
+// Definition for a binary tree node.
+function TreeNode(val, left, right) {
+  this.val = val === undefined ? 0 : val;
+  this.left = left === undefined ? null : left;
+  this.right = right === undefined ? null : right;
+}
