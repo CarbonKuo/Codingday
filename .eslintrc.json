@@ -8,6 +8,7 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "semi": ["error", "always"],
     "no-case-declarations": "off",
     "no-console": "off",
     "no-dupe-class-members": "off",

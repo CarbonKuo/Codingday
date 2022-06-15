@@ -28,7 +28,6 @@ template
 # Private
 Test_*
 package.json
-tsconfig.json
 Cargo.toml
 benchmark.ts
 testscript.js
