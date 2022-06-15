@@ -8,10 +8,12 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "semi": ["error", "always"],
     "no-case-declarations": "off",
     "no-console": "off",
     "no-dupe-class-members": "off",
     "no-redeclare": "off",
+    "no-constant-condition": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/no-explicit-any": "off",

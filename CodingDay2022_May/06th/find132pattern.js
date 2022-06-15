@@ -2,24 +2,21 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var find132pattern = function(nums) {
+var find132pattern = function (nums) {
   const elements = nums.length;
-  if(elements < 3) return false;
+  if (elements < 3) return false;
   let stack = [];
   let med = -Infinity;
-  
-  for( let i = elements - 1; i >= 0; --i){
-    if(nums[i] < med) return true;
-    while(stack.length > 0 && nums[i] > stack[stack.length - 1]){
+
+  for (let i = elements - 1; i >= 0; --i) {
+    if (nums[i] < med) return true;
+    while (stack.length > 0 && nums[i] > stack[stack.length - 1]) {
       med = stack.pop();
     }
     stack.push(nums[i]);
   }
   return false;
-}
-
-
-
+};
 
 // Runtime Error
 /**
