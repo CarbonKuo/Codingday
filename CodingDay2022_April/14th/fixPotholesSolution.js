@@ -7,7 +7,7 @@ function fixPotholesSolution(road, budget) {
   // Init
   let fixTotalPotholes = 0;
   // Fixing a segment consisting of K consecutive potholes costs K + 1.
-  if (budget < 2) return fixTotal;
+  if (budget < 2) return fixTotalPotholes;
 
   // Split road sections where potholes exist
   let potholes = road.split('.').filter(Boolean);
