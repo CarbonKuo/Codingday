@@ -28,5 +28,5 @@ function merge(nums1, m, nums2, n) {
     k--;
     j--;
   }
-  return nums1;
+  return nums1; // for test
 }
