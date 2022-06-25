@@ -17,7 +17,7 @@ function countAndSay(n) {
       while (pos < str.length && str[pos] === str[start]) {
         pos++;
       }
-      sb.push('' + (pos - start) + str[start]);
+      sb.push(pos - start + str[start]);
       start = pos;
     }
     str = sb.join('');
