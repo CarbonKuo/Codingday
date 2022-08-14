@@ -32,3 +32,6 @@ Cargo.toml
 benchmark.ts
 testscript.js
 lib
+.huskyrc
+.lintstagedrc
+.prettierrc.js
