@@ -19,6 +19,10 @@ describe('#singleNumber', () => {
       nums: [1],
       result: 1,
     },
+    {
+      nums: [1, 1, 1, 1],
+      result: 0,
+    },
   ];
 
   for (const { nums, result } of tests) {
