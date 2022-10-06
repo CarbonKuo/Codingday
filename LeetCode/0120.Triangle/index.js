@@ -8,18 +8,15 @@ module.exports = { minimumTotal };
  */
 function minimumTotal(triangle) {
   const bottom = triangle[triangle.length - 1];
-  const dp = new Array(bottom.length);
+  const totalTier = bottom.length;
+  const minPathTotal = bottom.map((item) => item);
 
-  for (let i = 0; i < dp.length; i++) {
-    dp[i] = bottom[i];
-  }
-
-  for (let i = dp.length - 2; i >= 0; i--) {
-    for (let j = 0; j < triangle[i].length; j++) {
-      dp[j] = Math.min(dp[j], dp[j + 1]) + triangle[i][j];
+  for (let tier = totalTier - 2; tier >= 0; tier--) {
+    for (let path = 0; path < triangle[tier].length; path++) {
+      minPathTotal[path] = Math.min(minPathTotal[path], minPathTotal[path + 1]) + triangle[tier][path];
     }
   }
-  return dp[0];
+  return minPathTotal[0];
 }
 
 // function minimumTotal(triangle) {
