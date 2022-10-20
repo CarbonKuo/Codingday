@@ -86,6 +86,7 @@ cargo test --lib -p <target>
 |0094|[Binary Tree Inorder Traversal](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0094.Binary%20Tree%20Inorder%20Traversal)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0094.Binary%20Tree%20Inorder%20Traversal/index.js)|
 |0088|[Merge Sorted Array](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0088.Merge%20Sorted%20Array)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0088.Merge%20Sorted%20Array/index.js)|
 |0083|[Remove Duplicates from Sorted List](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0083.Remove%20Duplicates%20from%20Sorted%20List)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0083.Remove%20Duplicates%20from%20Sorted%20List/index.js)|
+|0078|[Subsets](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0078.Subsets)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0078.Subsets/index.js)|
 |0069|[Sqrt(x)](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0069.Sqrt(x))|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0069.Sqrt(x)/index.js)|
 |0067|[Add Binary](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0067.Add%20Binary)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0067.Add%20Binary/index.js)|
 |0066|[Plus One](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0066.Plus%20One)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0066.Plus%20One/index.js)|
