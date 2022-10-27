@@ -92,6 +92,7 @@ cargo test --lib -p <target>
 |0066|[Plus One](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0066.Plus%20One)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0066.Plus%20One/index.js)|
 |0058|[Length of Last Word](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0058.Length%20of%20Last%20Word)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0058.Length%20of%20Last%20Word/index.js)|
 |0053|[Maximum Subarray](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0053.Maximum%20Subarray)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0053.Maximum%20Subarray/index.js)|
+|0049|[Group Anagrams](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0049.Group%20Anagrams)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0049.Group%20Anagrams/index.js)|
 |0038|[Count and Say](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0038.Count%20and%20Say)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0038.Count%20and%20Say/index.js)|
 |0036|[Valid Sudoku](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0036.Valid%20Sudoku)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0036.Valid%20Sudoku/index.js)|
 |0035|[Search Insert Position](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0035.Search%20Insert%20Position)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0035.Search%20Insert%20Position/index.js)|
