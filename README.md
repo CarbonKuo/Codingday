@@ -68,6 +68,7 @@ cargo test --lib -p <target>
 |0636|[Exclusive Time of Functions](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0636.Exclusive%20Time%20of%20Functions)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0636.Exclusive%20Time%20of%20Functions/index.js)|
 |0513|[Find Bottom Left Tree Value](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0513.Find%20Bottom%20Left%20Tree%20Value)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0513.Find%20Bottom%20Left%20Tree%20Value/index.js)|
 |0477|[Total Hamming Distance](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0477.Total%20Hamming%20Distance)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0477.Total%20Hamming%20Distance/index.js)|
+|0443|[String Compression](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0443.String%20Compression)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0443.String%20Compression/index.js)|
 |0415|[Add Strings](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0415.Add%20Strings)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0415.Add%20Strings/index.js)|
 |0399|[Evaluate Division](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0399.Evaluate%20Division)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0399.Evaluate%20Division/index.js)|
 |0322|[Coin Change](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0322.Coin%20Change)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0322.Coin%20Change/index.js)|
