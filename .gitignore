@@ -18,6 +18,10 @@ node_modules
 Cargo.lock
 yarn.lock
 
+# Rust
+/target
+**/*.rs.bk
+
 # Gulp
 gulpfile.ts
 gulp

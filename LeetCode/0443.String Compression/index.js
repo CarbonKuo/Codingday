@@ -4,7 +4,7 @@ module.exports = { compress };
 
 /**
  * @param {character[]} chars
- * @return {number}
+ * @return {number} result
  */
 function compress(chars) {
   let result = 0;
