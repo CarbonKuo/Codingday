@@ -1,9 +1,8 @@
 'use strict';
 
 const assert = require('assert');
-const { result } = require('lodash');
 
-const { twoSum } = require('.');
+const { twoSum } = require('./');
 
 describe('#twoSum', () => {
   const tests = [
