@@ -1,7 +1,7 @@
 'use strict';
 
 const assert = require('assert');
-
+const _ = require('lodash');
 const { twoSum } = require('./');
 
 describe('#twoSum', () => {
@@ -23,9 +23,9 @@ describe('#twoSum', () => {
     },
   ];
 
-  for (const { nums, target, result } of tests) {
+  _.forEach(tests, ({ nums, target, result }) => {
     it(`${nums}, ${target} -> ${result}`, () => {
       assert.deepStrictEqual(twoSum(nums, target), result);
     });
-  }
+  });
 });
