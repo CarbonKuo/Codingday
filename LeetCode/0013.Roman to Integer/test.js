@@ -1,7 +1,7 @@
 'use strict';
 
 const assert = require('assert');
-
+const _ = require('lodash');
 const { romanToInt } = require('./');
 
 describe('#romanToInt', () => {
@@ -32,9 +32,9 @@ describe('#romanToInt', () => {
     },
   ];
 
-  for (const { s, result } of tests) {
+  _.forEach(tests, ({ s, result }) => {
     it(`${s} -> ${result}`, () => {
       assert.deepStrictEqual(romanToInt(s), result);
     });
-  }
+  });
 });
