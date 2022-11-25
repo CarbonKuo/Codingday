@@ -71,6 +71,7 @@ cargo test --lib -p <target>
 |0443|[String Compression](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0443.String%20Compression)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0443.String%20Compression/index.js)|
 |0415|[Add Strings](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0415.Add%20Strings)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0415.Add%20Strings/index.js)|
 |0399|[Evaluate Division](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0399.Evaluate%20Division)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0399.Evaluate%20Division/index.js)|
+|0355|[Design Twitter](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0355.Design%20Twitter)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0355.Design%20Twitter/index.js)|
 |0322|[Coin Change](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0322.Coin%20Change)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0322.Coin%20Change/index.js)|
 |0200|[Number of Islands](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0200.Number%20of%20Islands)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0200.Number%20of%20Islands/index.js)|
 |0169|[Majority Element](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0169.Majority%20Element)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0169.Majority%20Element/index.js)|
