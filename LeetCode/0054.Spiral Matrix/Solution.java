@@ -12,7 +12,7 @@ public class Solution {
 
 		while (left <= right && top <= bottom) {
 			for (int i = left; i <= right; i++)
-			result.add(matrix[top][i]);
+				result.add(matrix[top][i]);
 			top++;
 
 			for (int i = top; i <= bottom; i++)
