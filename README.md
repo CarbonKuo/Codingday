@@ -51,6 +51,7 @@ cargo test --lib -p <target>
 ## Links
 |#|Title|Solution|
 |---|---|---|
+|2265|[Count Nodes Equal to Average of Subtree](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/2265.Count%20Nodes%20Equal%20to%20Average%20of%20Subtree)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/2265.Count%20Nodes%20Equal%20to%20Average%20of%20Subtree/index.js)|
 |2139|[Minimum Moves to Reach Target Score](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/2139.Minimum%20Moves%20to%20Reach%20Target%20Score)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/2139.Minimum%20Moves%20to%20Reach%20Target%20Score/index.js)|
 |2129|[Capitalize the Title](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/2129.Capitalize%20the%20Title)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/2129.Capitalize%20the%20Title/index.js)|
 |1929|[Concatenation of Array](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/1929.Concatenation%20of%20Array)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/1929.Concatenation%20of%20Array/index.js)|
