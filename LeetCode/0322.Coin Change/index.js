@@ -9,12 +9,12 @@ module.exports = { coinChange };
  */
 function coinChange(coins, amount) {
   if (!amount) return 0;
-  let dp = new Array(amount + 1).fill(Infinity);
-  dp[0] = 0;
+  let countCoinChange = new Array(amount + 1).fill(Infinity);
+  countCoinChange[0] = 0;
   for (let i = 1; i <= amount; i++) {
     for (let coin of coins) {
-      if (i - coin >= 0) dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+      if (i - coin >= 0) countCoinChange[i] = Math.min(countCoinChange[i], countCoinChange[i - coin] + 1);
     }
   }
-  return dp[amount] === Infinity ? -1 : dp[amount];
+  return countCoinChange[amount] === Infinity ? -1 : countCoinChange[amount];
 }
