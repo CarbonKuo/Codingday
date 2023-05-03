@@ -78,6 +78,7 @@ cargo test --lib -p <target>
 |0399|[Evaluate Division](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0399.Evaluate%20Division)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0399.Evaluate%20Division/index.js)|
 |0355|[Design Twitter](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0355.Design%20Twitter)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0355.Design%20Twitter/index.js)|
 |0322|[Coin Change](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0322.Coin%20Change)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0322.Coin%20Change/index.js)|
+|0216|[ Combination Sum III](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0216.%20Combination%20Sum%20III)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0216.%20Combination%20Sum%20III/index.js)|
 |0200|[Number of Islands](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0200.Number%20of%20Islands)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0200.Number%20of%20Islands/index.js)|
 |0169|[Majority Element](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0169.Majority%20Element)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0169.Majority%20Element/index.js)|
 |0168|[Excel Sheet Column Title](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0168.Excel%20Sheet%20Column%20Title)|[js](https://github.com/CarbonKuo/CodingDay/tree/main/LeetCode/0168.Excel%20Sheet%20Column%20Title/index.js)|
