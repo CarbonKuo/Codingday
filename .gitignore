@@ -39,3 +39,4 @@ lib
 .huskyrc
 .lintstagedrc
 .prettierrc.js
+.editorconfig
